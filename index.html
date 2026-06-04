@@ -846,9 +846,10 @@ const mapLayerState = { provinces:true, territories:true, capitals:true, geojson
 const regionMarkers = [], capitalMarkers = [];
 
 function toggleLayer(name) {
+  const btnIds = { provinces:'tog-prov', territories:'tog-terr', capitals:'tog-caps', geojson:'tog-geo', indigenous:'tog-indigenous' };
   mapLayerState[name] = !mapLayerState[name];
-  const btn = document.getElementById('tog-' + name);
-  btn.classList.toggle('on', mapLayerState[name]);
+  const btn = document.getElementById(btnIds[name]);
+  if (btn) btn.classList.toggle('on', mapLayerState[name]);
 
   if (name === 'geojson') {
     if (mapLayerState.geojson) loadGeoJSON();
