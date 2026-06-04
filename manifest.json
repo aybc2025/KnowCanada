@@ -1,40 +1,25 @@
 {
-  "name": "מחוזות קנדה | Canada's Provinces",
+  "name": "קנדה — מחוזות וטריטוריות | Canada Provinces",
   "short_name": "קנדה 🍁",
-  "description": "למד על מחוזות וטריטוריות קנדה בעברית ואנגלית עם מפה אינטראקטיבית וחידון",
+  "description": "למד על מחוזות וטריטוריות קנדה — מפה, פלאשכארד, חידון, ציר זמן ועוד",
+  "version": "2.0.0",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#eef4fb",
-  "theme_color": "#d62828",
+  "background_color": "#f4f7fb",
+  "theme_color": "#c41e3a",
   "lang": "he",
   "dir": "rtl",
   "scope": "./",
   "categories": ["education", "kids"],
   "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ],
   "shortcuts": [
-    {
-      "name": "מפה | Map",
-      "url": "./index.html?tab=map",
-      "description": "פתח את מפת קנדה"
-    },
-    {
-      "name": "חידון | Quiz",
-      "url": "./index.html?tab=quiz",
-      "description": "התחל חידון"
-    }
+    { "name": "מפה | Map",        "url": "./index.html?tab=map",      "description": "פתח את מפת קנדה" },
+    { "name": "חידון | Quiz",      "url": "./index.html?tab=quiz",     "description": "התחל חידון" },
+    { "name": "פלאשכארד | Flash", "url": "./index.html?tab=flash",    "description": "תרגל עם פלאשכארד" },
+    { "name": "ציר זמן | Timeline","url": "./index.html?tab=timeline", "description": "ציר זמן של קנדה" }
   ]
 }
