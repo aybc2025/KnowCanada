@@ -1,8 +1,8 @@
 {
   "name": "קנדה — מחוזות וטריטוריות | Canada Provinces",
   "short_name": "קנדה 🍁",
-  "description": "למד על מחוזות וטריטוריות קנדה — מפה, פלאשכארד, חידון, ציר זמן ועוד",
-  "version": "2.0.0",
+  "description": "למד על מחוזות וטריטוריות קנדה — מפה, פלאשכארד, חידון דגלים, ציר זמן ועוד",
+  "version": "3.0.0",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait-primary",
@@ -17,9 +17,9 @@
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ],
   "shortcuts": [
-    { "name": "מפה | Map",        "url": "./index.html?tab=map",      "description": "פתח את מפת קנדה" },
-    { "name": "חידון | Quiz",      "url": "./index.html?tab=quiz",     "description": "התחל חידון" },
-    { "name": "פלאשכארד | Flash", "url": "./index.html?tab=flash",    "description": "תרגל עם פלאשכארד" },
-    { "name": "ציר זמן | Timeline","url": "./index.html?tab=timeline", "description": "ציר זמן של קנדה" }
+    { "name": "מפה | Map",          "url": "./index.html?tab=map",      "description": "פתח את מפת קנדה" },
+    { "name": "חידון דגלים | Flags","url": "./index.html?tab=quiz",     "description": "חידון זיהוי דגלים" },
+    { "name": "פלאשכארד | Flash",   "url": "./index.html?tab=flash",    "description": "תרגל עם פלאשכארד" },
+    { "name": "ציר זמן | Timeline", "url": "./index.html?tab=timeline", "description": "ציר זמן של קנדה" }
   ]
 }

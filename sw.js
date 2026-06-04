@@ -1,5 +1,5 @@
-// Canada PWA v2 — Service Worker
-const APP_VERSION = 'v2.0.0';
+// Canada PWA v3 — Service Worker
+const APP_VERSION = 'v3.0.0';
 const SHELL_CACHE = `canada-shell-${APP_VERSION}`;
 const TILE_CACHE  = `canada-tiles-${APP_VERSION}`;
 const FONT_CACHE  = `canada-fonts-${APP_VERSION}`;
@@ -8,9 +8,19 @@ const MAX_TILES   = 600;
 const SHELL_URLS = [
   './index.html',
   './manifest.json',
+  './style.css',
+  './data.js',
+  './cards.js',
+  './map.js',
+  './flashcard.js',
+  './quiz.js',
+  './timeline.js',
+  './app.js',
+  './icon-192.png',
+  './icon-512.png',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
-  'https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap'
+  'https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap',
 ];
 
 self.addEventListener('install', event => {
